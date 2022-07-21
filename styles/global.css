@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Futura LT Pro';
+  font-weight: bold;
+  src: url('../fonts/FuturaLTProBold.otf') format('opentype'),
+      
+}
+
+body{
+  margin: 0;
+  display: block;
+  max-width: 1920px;
+}
+
+.borderdiv{
+  width: 1200px;
+  margin: auto;
+}

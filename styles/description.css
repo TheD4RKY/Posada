@@ -1,0 +1,32 @@
+.descriptiondiv{
+  
+  display: flex;
+  flex-direction: row;
+  background: rgba(66, 65, 65, 0.22);
+  height: 404px;
+  width: 100%;
+  z-index: 1;
+ 
+}
+
+.descriptioncontainer{
+  width: 25%;
+  height: 404px;
+}
+
+
+.descriptioncontainer img{
+  z-index: -1;
+  position: absolute;
+  
+  mix-blend-mode: multiply;
+}
+
+.descriptioncolorbg{
+  
+  width: 100%;
+  height: 404px;
+  position: absolute;
+}
+
+/*opacity: 0.62;*/

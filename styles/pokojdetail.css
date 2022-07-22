@@ -1,0 +1,30 @@
+.pokojdiv{
+  display: flex;
+  flex-direction: column;
+  
+}
+.pokojdivrow{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.pokojheader{
+  padding-top: 2rem;
+  font-size: 55px;
+  color: #006BB1;
+}
+.pokojtext1{
+  padding-top: 2rem;
+  font-size: 27px;
+  color: #757474;
+}
+.pokojtext2{
+  padding-top: 2rem;
+  font-size: 20px;
+  color: #757474;
+}
+.pokojtext3{
+  padding-top: 2rem;
+  font-size: 20px;
+  color: #006BB1;
+}

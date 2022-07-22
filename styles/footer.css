@@ -1,0 +1,52 @@
+.footer{
+width: 100%;
+height: 200px;
+background-color: #006BB1;
+align-items: center;
+display: flex;
+}
+
+  
+  .footercol{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .footerrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footerheader{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 25px;
+    color: white;
+  }
+
+  .footertext1{
+    font-size: 20px;
+    color: white;
+
+  }
+
+  .footertext2{
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .instagram{
+   
+    padding-left: 1rem;
+  }
+
+  .facebook{
+    padding-right: 1rem;
+  }

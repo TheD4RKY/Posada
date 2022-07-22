@@ -4,8 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" >
 <link rel="stylesheet" href="./styles/global.css" >
+<link rel="stylesheet" href="./styles/pokojdetail.css" >
 <link rel="stylesheet" href="./styles/header.css" >
 <link rel="stylesheet" href="./styles/navbar.css" >
+<link rel="stylesheet" href="./styles/secondnav.css" >
 <link rel="stylesheet" href="./styles/form.css" >
 <link rel="stylesheet" href="./styles/footernav.css" >
 <link rel="stylesheet" href="./styles/footer.css" >
@@ -17,9 +19,9 @@
 
 </head>
 <body style="max-width: 1920px;">
-<div style="background-color: black; z-index:-1; height:800px; position:absolute; width: 100%; opacity: 0.22;">
+<div style="background-color: black; z-index:-1; height:120px; position:absolute; width: 100%; opacity: 0.22;">
 </div>
-<img src="./public/1.png" class="headerbackground">
+<img src="./public/1.png" class="headerbackground" style="height:120px; object-fit: cover;">
 
 <div class="borderdiv">
 <nav class="navbar">
@@ -34,67 +36,72 @@
   <div class="navbartext">KAM V OKOLÍ</div>
   <div class="navbartext">KONTAKT</div>
 </div>
-</nav>
-</div>
 
+</div>
+</div>
+<div class="bordernav">
 <div class="borderdiv">
-  <div class="maintextarea">
-  <div class="arrowpos"><img src="./public/arrowleft.svg" alt=""></div>
-
-<div class="middletextarea">
-<div class="text1">UBYTOVÁNÍ</div>
-<div class="text2">v blízkosti Lednicko-Valtického areálu</div>
-<div class="text3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-  Etiam egestas wisi a erat. 
-  Phasellus rhoncus. 
-  Aliquam ante. Nullam eget nisl. 
-  Cras elementum.</div>
-  <div class="textareabutton">
-<div class="text4">ZOBRAZIT NABÍDKU</div></div>
-</div>
-
-
-<div class="arrowpos"><img src="./public/arrowright.svg" alt=""></div>
+  <div class="secondnav1">
+  <div class="secondnav">
+    <div class="secondnavtextactive">POKOJ #1</div>
+    <div class="secondnavtext">POKOJ #2</div>
+    <div class="secondnavtext">POKOJ #3</div>
+    <div class="secondnavtext">POKOJ #4</div>
+    <div class="secondnavtext">POKOJ #5</div>
+    <div class="secondnavtext">POKOJ #6</div>
+    <div class="secondnavtext">POKOJ #7</div>
+  </div></div>
 </div>
 </div>
-
-
 <div class="borderdiv">
-  <div class="undertextareadiv">
-<div class="undertextareaimg">
-  <img src="./public/3.svg" >
+<div class="pokojdivrow">
+<div class="pokojdiv">
+  <div class="pokojheader">POKOJ 1</div>
+  <div class="pokojtext1">pro xx osob</div>
+  <div class="pokojtext2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam egestas wisi a erat. 
+    Phasellus rhoncus. Aliquam ante. Nullam eget nisl. Cras elementum.
+     Vivamus luctus egestas leo. Etiam commodo dui eget wisi. 
+     Aenean id metus id velit ullamcorper pulvinar. 
+     Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. 
+     Cras elementum.</div>
+  <div class="pokojtext3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam egestas wisi a erat.</div>
+  <div class="pokojtext2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam egestas wisi a erat. Phasellus rhoncus.
+     Aliquam ante. Nullam eget nisl. Cras elementum. Vivamus luctus egestas leo. Etiam</div>
 </div>
-<div class="undertextareatext1">VÍTEJTE</div>
-<div class="undertextareatext2">v Penzionu Posada v Podivíně</div>
-
+<div class="pokojdiv" style="padding-left: 10rem;">
+  <div >
+    <img src="./public/21.png" >
+  </div>
+</div>
 </div></div>
 
+
+<div class="galerie">
+  <img src="./public/17.svg" style="position: absolute; object-fit: cover; z-index: -1; width: 100%; height: 583px;">
 <div class="borderdiv">
+<div class="galerieheader">GALERIE</div>
 
-  <div class="descriptiondiv">
-<div class="descriptioncontainer">
-<img src="./public/4.png" alt="">
+<div class="galeriediv">
+<div><img src="./public/9.png"></div>
+<div><img src="./public/10.png"></div>
+<div><img src="./public/11.png"></div>
+<div><img src="./public/12.png"></div>
+
 </div>
-<div class="descriptioncontainer">
-  <img src="./public/5.png" alt="">
 </div>
-<div class="descriptioncontainer">
-  <img src="./public/6.png" alt="">
-</div>
-<div class="descriptioncontainer">
-  <img src="./public/7.png" alt="">
 </div>
 
-  </div>
+<div class="borderdiv">
+ 
 
 </div>
 
 
-  <div class="roomselect">
-    <div class="roomselectscreen">
-    <img src="./public/8.svg" style="width: 100%; height: 650px; position: absolute; z-index: -1; object-fit: cover;">
+  <div class="roomselect" style="z-index: -4;">
+    <div class="roomselectscreen" >
+    <img src="./public/8.svg" style="width: 100%; height: 650px; position: absolute; z-index: -2; object-fit: cover;">
     <div class="borderdiv">
-      <div class="roomselectdiv">
+      <div class="roomselectdiv" style="z-index: 5;">
         <div class="roomselecttext1">VYBERTE SI</div>
         <div class="roomselecttext2">z našich 7 pokojů</div>
         <div class="roomselecttext3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
@@ -102,7 +109,7 @@
           Nullam eget nisl. Cras elementum. Vivamus luctus egestas leo. 
           Etiam commodo dui eget</div>
             <div style="margin:auto;">
-        <form action="" style="padding-top: 2rem;">
+        <form action="" style="padding-top: 2rem; z-index: 5;">
 
           <input type="text" class="roomselectdate1" placeholder="Vyberte datum příjezdu" onfocus="(this.type='date')"  onblur="(this.type='text')">
           <img src="./public/line.svg" >
@@ -129,34 +136,9 @@
 </div></div>
 
 
-<div class="galerie">
-<div class="borderdiv">
-<div class="galerieheader">JAK TO U NÁS VYPADÁ?</div>
-<div class="galerienav">
-<div class="galerietext1">VŠECHNY FOTOGRAFIE</div>
-<div class="galerietext1">POKOJE</div>
-<div class="galerietext1">OKOLÍ PENZIONU</div>
-<div class="galerietext1">FIREMNÍ AKCE</div>
-</div>
-<div class="galeriediv">
-<div><img src="./public/9.png"></div>
-<div><img src="./public/10.png"></div>
-<div><img src="./public/11.png"></div>
-<div><img src="./public/12.png"></div>
 
-<div><img src="./public/13.png"></div>
-<div><img src="./public/14.png"></div>
-<div><img src="./public/15.png"></div>
-<div><img src="./public/16.png"></div>
-</div>
-<div class="galeriebuttondiv">
-<div class="galeriebutton">OTEVŘÍT CELOU GALERII</div>
-</div>
-</div>
-</div>
 
 <div class="form">
-  <img src="./public/17.svg" style="position: absolute; object-fit: cover; z-index: -1; width: 100%; height: 460px;">
 <div class="borderdiv">
 <div class="formheader">
 NAPIŠTĚ NÁM

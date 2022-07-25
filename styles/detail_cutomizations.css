@@ -27,5 +27,23 @@
 .galeriedetail{
   width: 100%;
   height: 483px;
-  
+
 }
+
+.roomselectdetail{
+
+  width: 100%;
+  height: 862px;
+
+  z-index: -2;
+}
+
+.roomselectscreendetail{
+  background-color: #006BB1;
+  width: 100%;
+  height: 862px;
+  position: absolute;
+  z-index: -2;
+}
+
+

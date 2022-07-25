@@ -12,6 +12,9 @@
 .descriptioncontainer{
   width: 25%;
   height: 404px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 
@@ -28,5 +31,30 @@
   height: 404px;
   position: absolute;
 }
+
+.descriptionheader{
+color: #FFFFFF;
+background-color: transparent;
+font-size: 27px;
+text-shadow: 0px 0px 6px #00000065;
+text-align: center;
+padding-bottom: 1rem;
+
+}
+
+.descriptiontext{
+  padding-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: #FFFFFF;
+background-color: transparent;
+font-size: 20px;
+text-shadow: 0px 0px 6px #00000065;
+text-align: center;
+width: 80%;
+
+
+}
+
 
 /*opacity: 0.62;*/

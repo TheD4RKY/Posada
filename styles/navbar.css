@@ -20,13 +20,15 @@
   flex-direction: row;
   align-items: center;
   text-align: center;
-  font-family: 'Futura LT Pro', sans-serif;
   font-weight: bold;
 }
 
 .navbartext{
   padding-left: 2rem;
   padding-right: 2rem;
+  font-family: 'Futura LT Pro', sans-serif;
+  font-weight: bold;
+  
 }
 
 .middletextarea{

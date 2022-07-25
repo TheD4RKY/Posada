@@ -71,6 +71,30 @@ font-size: 22px;
 
 }
 
+.roomselectdate3{
+  width: 322px;
+  height: 68px;
+  background-color: #005186;
+  text-align: center;
+  border: 0;
+  color: white;
+  font-size: 22px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  }
+
+  .roomselectdate4{
+    width: 167px;
+    height: 68px;
+    background-color: #005186;
+    text-align: center;
+    border: 0;
+    color: white;
+    font-size: 22px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    }
+
 .roomselectdate1::placeholder{
   color: white;
 }

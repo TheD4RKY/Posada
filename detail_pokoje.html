@@ -277,7 +277,7 @@
 </div>
 
 
-  <div class="roomselect" style="z-index: -4;">
+  <div class="roomselect" style="z-index: -4; padding-bottom: 13rem;">
     <div class="roomselectscreendetail" ></div>
     <img src="./public/8.svg" style="width: 100%; height: 862px; position: absolute; z-index: -2; object-fit: cover;">
    
@@ -290,10 +290,11 @@
           Etiam commodo dui eget</div></div>
             <div style="margin:auto;">
         <form action="" style="padding-top: 2rem; z-index: 5;">
-
+          <div style=" display: flex; justify-content: center; padding-top: 2rem;">
           <input type="text" class="roomselectdate1" placeholder="Vyberte datum příjezdu" onfocus="(this.type='date')"  onblur="(this.type='text')">
           <img src="./public/line.svg" >
           <input type="text" class="roomselectdate1" placeholder="Vyberte datum příjezdu" onfocus="(this.type='date')" onblur="(this.type='text')">
+        </div>
           <div style=" display: flex; justify-content: center; padding-top: 2rem;">
             <input type="text" class="roomselectdate3" placeholder="Jméno a příjmení" >
             <input type="text" class="roomselectdate3" placeholder="Ulice a č.p." >
@@ -322,7 +323,7 @@
 
 
 
-<div class="form">
+<div class="form" style=" box-shadow: 0px 4px 15px #00000040; padding-bottom: 2rem; z-index: -8;">
 <div class="borderdiv">
 <div class="formheader">
 NAPIŠTĚ NÁM
@@ -335,10 +336,17 @@ NAPIŠTĚ NÁM
 <input class="forminput" type="number"  placeholder="Telefon"           style="background-color: white;" >
 </div>
 <div class="formflexcol">
-  <textarea class="formtextfield" type="text" placeholder="Zpráva"></textarea>
+  <textarea class="formtextfield" type="text" placeholder="Zpráva" ></textarea>
   <div class="formflexrow">
+
+
   <input class="formcheckbox" type="checkbox">
-  <label >Souhlasím se zpracováním osobních údajů.</label>
+
+
+  <label style="font: normal normal 300 18px/30px Futura LT Pro;
+  letter-spacing: 0px;
+  color: #757474;
+  text-decoration: underline;">Souhlasím se zpracováním osobních údajů.</label>
   <input class="formbuttonsend" type="button" value="ODESLAT ZPRÁVU">
 </div></div>
 </form>

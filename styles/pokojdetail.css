@@ -10,21 +10,21 @@
 }
 .pokojheader{
   padding-top: 2rem;
-  font-size: 55px;
+  font: normal normal bold 55px/77px Trajan Pro;
   color: #006BB1;
 }
 .pokojtext1{
   padding-top: 2rem;
-  font-size: 27px;
+  font: normal normal bold 27px/37px Futura LT Pro;
   color: #757474;
 }
 .pokojtext2{
   padding-top: 2rem;
-  font-size: 20px;
+  font: normal normal 300 20px/29px Futura LT Pro;
   color: #757474;
 }
 .pokojtext3{
   padding-top: 2rem;
-  font-size: 20px;
+  font: normal normal bold 20px/29px Futura LT Pro;
   color: #006BB1;
 }

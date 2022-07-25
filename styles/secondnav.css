@@ -19,11 +19,13 @@
 .secondnavtextactive{
   color: #006BB1;
   text-decoration: underline;
+  font: normal normal bold 20px/30px Futura LT Pro;
 }
 
 .secondnavtext{
   color: #006BB1;
-  opacity: 0.8;
+  opacity: 0.5;
+  font: normal normal 500 20px/30px Futura LT Pro;
 }
 
 .bordernav{

@@ -7,7 +7,7 @@
 .formheader{
   padding-top: 3.5rem;
   padding-bottom: 2rem;
-  font-size: 55px;
+  font: normal normal bold 55px/77px Trajan Pro;
   color: #006BB1;
   display: flex;
   justify-content: center;
@@ -20,7 +20,7 @@
   border: 3px solid #005186;
   margin-top: 1rem;
   color: #757474;
-  font-size: 22px;
+  font: normal normal bold 22px/29px Futura LT Pro;
 }
 
 .formtextfield{
@@ -30,7 +30,7 @@
   background-color: white;
   margin-top: 1rem;
   color: #757474;
-  font-size: 22px;
+  font: normal normal bold 22px/29px Futura LT Pro;
  display: flex;
  justify-content: end;
 
@@ -65,6 +65,7 @@
   font-size: 22px;
 }
 */
+
 input[type=checkbox]{
   width: 25px;
   height: 25px;
@@ -74,21 +75,41 @@ input[type=checkbox]{
   background-color: white;
   box-shadow: none;
   border: 1em solid currentColor;
-  border-radius: 0em;
+  border-radius: 0px;
   
 }
 
+/*.formcheckbox{
+  width: 25px;
+  height: 25px;
+  outline-color:#006BB1;
+  color: #006BB1;
+  outline-width: 1rem;
+  background-color: white;
+  box-shadow: none;
+  border: 1em solid currentColor;
+  border-radius: 0em;
+}*/
 
 
 input[type=checkbox]::after{
   border: 3px solid #005186;
 }
 
+textarea {
+  resize: none;
+}
+
+::placeholder{
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
 .formbuttonsend{
   background-color: #006BB1;
-  font-size: 22px;
   border-width: 0px;
   color: white;
   width: 268px;
   height: 50px;
+  font: normal normal bold 22px/29px Futura LT Pro;
 }

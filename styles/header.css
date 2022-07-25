@@ -13,16 +13,21 @@
 }
 
 .text1{
-font-size: 77px;
+
+font: normal normal bold 77px/107px Trajan Pro;
 }
 
 .text2{
   font-size: 27px;
+  font-family: 'Futura LT Pro', sans-serif;
+  font-weight: bold;
 }
 
 .text3{
   padding-top: 1.5rem;
   font-size: 20px;
+  font-family: 'Futura LT Pro', sans-serif;
+  font-weight: 300;
 }
 
 .text4{
@@ -33,6 +38,8 @@ font-size: 77px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Futura LT Pro', sans-serif;
+  font-weight: bold;
 }
 
 .textareabutton{
@@ -57,7 +64,7 @@ font-size: 77px;
 .undertextareatext1{
   padding-top: 2rem;
   color: #006BB1;
-  font-size: 55px;
+  font: normal normal bold 55px/77px Trajan Pro;
   display: flex;
   justify-content: center;
 }
@@ -68,6 +75,8 @@ font-size: 77px;
   display: flex;
   justify-content: center;
   padding-bottom: 2rem;
+  font-family: 'Futura LT Pro', sans-serif;
+  font-weight: bold;
 }
 
 .arrowpos{

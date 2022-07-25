@@ -1,9 +1,4 @@
-@font-face {
-  font-family: 'Futura LT Pro';
-  font-weight: bold;
-  src: url('../fonts/FuturaLTProBold.otf') format('opentype'),
-      
-}
+
 
 .navbar{
  display: flex;
@@ -29,6 +24,7 @@
   font-family: 'Futura LT Pro', sans-serif;
   font-weight: bold;
   
+
 }
 
 .middletextarea{

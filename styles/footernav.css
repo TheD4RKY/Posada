@@ -26,6 +26,7 @@ font-size: 20px;
 color: #006BB1;
 padding-top: 1rem;
 padding-bottom: 1rem;
+font: normal normal bold 20px/29px Futura LT Pro;
 }
 
 .footernavbutton{
@@ -36,4 +37,7 @@ padding-bottom: 1rem;
   height: 50px;
   display: flex;
   align-items: center;
+  font: normal normal bold 20px/29px Futura LT Pro;
+  margin: auto;
+  text-align: center;
 }

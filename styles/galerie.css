@@ -28,10 +28,10 @@
 }
 
 .galerietext1{
-  color: #006BB1;
-  font-size: 20px; 
+  color: #006BB1; 
   padding-left: 1rem;
   padding-right: 1rem;
+  font: normal normal bold 20px/29px Futura LT Pro;
 }
 
 .galeriebutton{
@@ -44,6 +44,7 @@
   align-items: center;
   color: white;
   margin: auto;
+  font: normal normal bold 20px/29px Futura LT Pro;
 }
 
 .galeriebuttondiv{

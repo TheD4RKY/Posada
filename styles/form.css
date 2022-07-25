@@ -50,6 +50,8 @@
 }
 
 .formflexrow{
+  justify-content: center;
+  padding-top: 1.5rem;
   display: flex;
   flex-direction: row;
 }
@@ -67,30 +69,25 @@
 */
 
 input[type=checkbox]{
+  
   width: 25px;
   height: 25px;
-  outline-color:#006BB1;
+  outline: 3px solid #006BB1;
   color: #006BB1;
-  outline-width: 1rem;
+  appearance: none;
   background-color: white;
   box-shadow: none;
-  border: 1em solid currentColor;
   border-radius: 0px;
-  
 }
 
-/*.formcheckbox{
-  width: 25px;
-  height: 25px;
-  outline-color:#006BB1;
-  color: #006BB1;
-  outline-width: 1rem;
-  background-color: white;
-  box-shadow: none;
-  border: 1em solid currentColor;
-  border-radius: 0em;
-}*/
+.formcheckbox{
+ margin-top: 0.8rem;
+}
 
+input[type=checkbox]:checked {
+  background-color: #0192f3;
+  color: white;
+}
 
 input[type=checkbox]::after{
   border: 3px solid #005186;

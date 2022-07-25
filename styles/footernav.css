@@ -37,7 +37,7 @@ font: normal normal bold 20px/29px Futura LT Pro;
   height: 50px;
   display: flex;
   align-items: center;
+  justify-content: center;
   font: normal normal bold 20px/29px Futura LT Pro;
-  margin: auto;
-  text-align: center;
+  
 }

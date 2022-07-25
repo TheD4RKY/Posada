@@ -1,0 +1,27 @@
+.pokojegrid{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 1rem;
+}
+
+.pokojegriddivactive{
+  height: 100px;
+  text-align: center;
+  width: 150px;
+  border: 2px solid #006BB1;
+}
+
+.pokojegriddivactivenum{
+  text-align: center;
+font: normal normal bold 43px/70px Futura LT Pro;
+color: #006BB1;
+
+}
+
+.pokojegriddivactiveavailable{
+  text-align: center;
+font: normal normal bold 18px/20px Futura LT Pro;
+color: #3AA800;
+
+}

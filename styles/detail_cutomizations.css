@@ -1,0 +1,31 @@
+
+.navbardetail{
+  display: flex;
+  flex-direction: row;
+   height: 120px;
+
+   width: 100%;
+   justify-content: space-between;
+ }
+ 
+ .galeriedivdetail{
+  padding-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 1rem;
+}
+
+.greybgdetail{
+  background-color: #EBEBEB;
+  height: 483px;
+  position: absolute;
+  z-index: -5;
+  width: 100%;
+}
+
+.galeriedetail{
+  width: 100%;
+  height: 483px;
+  
+}

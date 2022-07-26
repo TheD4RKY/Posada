@@ -108,6 +108,9 @@ font: normal normal bold 22px/30px Futura LT Pro;
   color: white;
 }
 
+.roomselectdate5::placeholder{
+  color: white;
+}
 .roomselectbutton{
   height: 50px;
   width: 326px;
@@ -120,6 +123,19 @@ font: normal normal bold 22px/30px Futura LT Pro;
   font: normal normal bold 22px/30px Futura LT Pro;
 }
 
+.roomselectdate5{
+  width: 446px;
+  height: 68px;
+  background-color: #005186;
+  text-align: center;
+  border: 0;
+  color: white;
+  font-size: 22px;
+  font: normal normal bold 22px/30px Futura LT Pro;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  }
+
 .roomselectbuttondiv{
 
 padding-top: 3rem;
@@ -131,4 +147,11 @@ padding-top: 3rem;
   display: flex;
   justify-content: center;
   font: normal normal 300 20px/29px Futura LT Pro;
+}
+
+.roomselecttext{
+  color: white;
+  font: normal normal bold 34px/46px Futura LT Pro;
+  margin-top: 1.8rem;
+  line-height: 0.2rem;
 }

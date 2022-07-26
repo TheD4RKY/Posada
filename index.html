@@ -7,16 +7,44 @@
 <link rel="stylesheet" href="./styles/header.css" >
 <link rel="stylesheet" href="./styles/navbar.css" >
 <link rel="stylesheet" href="./styles/form.css" >
+<link rel="stylesheet" href="./styles/burger.css" >
 <link rel="stylesheet" href="./styles/footernav.css" >
 <link rel="stylesheet" href="./styles/footer.css" >
+<link rel="stylesheet" href="./styles/mobilenav.css" >
 <link rel="stylesheet" href="./styles/copyright.css" >
 <link rel="stylesheet" href="./styles/galerie.css" >
 <link rel="stylesheet" href="./styles/roomselect.css" >
 <link rel="stylesheet" href="./styles/description.css" >
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
+<script src="./js/burger.js"></script>
+<script src="./js/navtoggle.js"></script>
 </head>
-<body style="max-width: 1920px;">
+<body style="max-width: 1920px;" onresize="resize()">
+
+  <div class="menu_overlay" id="translatetoggle">
+    <div class="divbodyborder">
+      <div class="flexlist">
+
+        <ul class="list">
+          <li class="listactive"><a onclick="toggle(1);">KATEGORIE <img src="./public/arrowrev2.svg" style="z-index: 101; padding-left: 1rem; padding-bottom: 0.3rem;"></a></li>
+          <li class="list1"><a href="./index.html">O NÁS</a></li>
+          <li class="list1"><a href="./whitewine.html">UBYTOVÁNÍ</a></li>
+          <li class="list1"><a href="./redwine.html">FIREMNÍ AKCE</a></li>
+          <li class="list1"><a href="./pinkwine.html">KAM V OKOLÍ</a></li>
+          <li class="list1"><a href="./proseccowine.html">KONTAKT</a></li>
+        </ul>
+        
+    
+        <ul class="list">
+          <li class="listactive" ><a onclick="toggle(3);">KONTAKTY <img src="./public/arrowrev2.svg" style="z-index: 101; padding-left: 1rem; padding-bottom: 0.3rem;"></a></li>
+          <li class="list3"><a href="https://www.facebook.com/posadapodivin">FACEBOOK</a></li>
+          <li class="list3"><a href="https://www.instagram.com/wineboutique.cz/">INSTAGRAM</a></li>
+          <li class="list3"><a href="#">TEL.: +420 775 105 808</a></li>
+        </ul>
+      </div>
+      </div>
+    </div> 
+
 <div style="background-color: black; z-index:-1; height:800px; position:absolute; width: 100%; opacity: 0.22;">
 </div>
 <img src="./public/1.png" class="headerbackground">
@@ -34,6 +62,13 @@
   <div class="navbartext">KAM V OKOLÍ</div>
   <div class="navbartext">KONTAKT</div>
 </div>
+
+<div class="container2" onclick="myFunction(this)" style="z-index: 101;">
+  <div class="bar1" ></div>
+  <div class="bar2" ></div>
+  <div class="bar3" ></div>
+</div>
+
 </nav>
 </div>
 

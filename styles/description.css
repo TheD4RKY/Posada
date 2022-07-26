@@ -23,6 +23,8 @@
   position: absolute;
  object-fit: cover;
   mix-blend-mode: multiply;
+  width: 22.5%;
+  max-height: 304px;
 }
 
 .descriptioncolorbg{

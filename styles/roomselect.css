@@ -155,3 +155,12 @@ padding-top: 3rem;
   margin-top: 1.8rem;
   line-height: 0.2rem;
 }
+
+@media (max-width: 1280px) {
+
+.roomselectimg{
+  display: none;
+}
+
+
+}

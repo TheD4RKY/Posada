@@ -29,6 +29,15 @@ body{
 }
 
 .borderdiv{
-  width: 1200px;
+  width: 62.5%;
   margin: auto;
+}
+
+@media (max-width: 1280px) {
+
+
+  .borderdiv{
+    width: 90%;
+}
+
 }

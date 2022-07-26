@@ -110,3 +110,24 @@ textarea {
   height: 50px;
   font: normal normal bold 22px/29px Futura LT Pro;
 }
+
+@media (max-width: 1280px) {
+
+  .formflex{
+    
+    flex-direction: column;
+  
+  }
+
+
+.form{
+  height: 800px;
+}
+    
+  .forminput{
+    width: 100%;
+  }
+  .formtextfield{
+    width: 100%;
+  }
+}

@@ -34,3 +34,9 @@
   text-align: center;
   color: white;
 }
+
+@media (max-width: 1280px) {
+  .navright{
+    display: none;
+  }
+}

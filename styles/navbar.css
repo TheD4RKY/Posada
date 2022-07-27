@@ -30,7 +30,7 @@
 .middletextarea{
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 65%;
   text-align: center;
   color: white;
 }

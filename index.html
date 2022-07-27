@@ -147,7 +147,7 @@
 
   <div class="roomselect">
     <div class="roomselectscreen"></div>
-    <img src="./public/8.svg" style="width: 100%; height: 650px; position: absolute; z-index: -1; object-fit: cover;">
+    <img src="./public/8.svg" class="roomselectimage" style="width: 100%;  position: absolute; z-index: -1; object-fit: cover;">
     <div class="borderdiv">
       <div class="roomselectdiv">
         <div class="roomselecttext1">VYBERTE SI</div>
@@ -157,13 +157,13 @@
           Nullam eget nisl. Cras elementum. Vivamus luctus egestas leo. 
           Etiam commodo dui eget</div>
             <div style="margin:auto;">
-        <form action="" style="padding-top: 2rem;">
-     
+        <form action="" style="padding-top: 2rem; width: 100%;">
+          <div class="roomselectdivcenter">
           <input type="text" class="roomselectdate1" placeholder="Vyberte datum odjezdu" onfocus="(this.type='date')"  onblur="(this.type='text')">
           <img src="./public/line.svg" class="roomselectimg">
           <input type="text" class="roomselectdate1" placeholder="Vyberte datum příjezdu" onfocus="(this.type='date')" onblur="(this.type='text')">
-      
-          <div style=" display: flex; justify-content: center; padding-top: 2rem;">
+          </div>
+          <div class="roomselectdivcenter2" style=" display: flex; justify-content: center; margin: auto;">
           <select  type="select" class="roomselectdate1" placeholder="Vyberte pokoj" form="form">
             <option value="" disabled selected>Vyberte pokoj</option>
             <option value="1">Pokoj č.1</option>
@@ -195,7 +195,7 @@
 <div class="galerietext1">FIREMNÍ AKCE</div>
 </div>
 <div class="galeriediv">
-<div class="galerieimg"><img src="./public/9.png" ></div>
+<div class="galerieimg"><img src="./public/9.png"></div>
 <div class="galerieimg"><img src="./public/10.png"></div>
 <div class="galerieimg"><img src="./public/11.png"></div>
 <div class="galerieimg"><img src="./public/12.png"></div>
@@ -232,7 +232,7 @@ NAPIŠTE NÁM
     <input class="formcheckbox" type="checkbox">
 
 
-<label class="formpadding" style="font: normal normal 300 18px/30px Futura LT Pro;
+<label class="formpadding" style="
 letter-spacing: 0px;
 color: #757474;
 text-decoration: underline;    margin-top: 0.7rem;">Souhlasím se zpracováním osobních údajů.</label>
@@ -325,6 +325,5 @@ text-decoration: underline;    margin-top: 0.7rem;">Souhlasím se zpracováním 
       </div>
     </div>
   </div>
-
 </body>
 </html>

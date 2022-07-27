@@ -27,6 +27,9 @@ font: normal normal bold 77px/107px Trajan Pro;
 .text3{
   padding-top: 1.5rem;
   font-size: 20px;
+  padding-right: 10%;
+  padding-left: 10%;
+  display: flex;
   font-family: 'Futura LT Pro', sans-serif;
   font-weight: 300;
 }
@@ -56,6 +59,7 @@ font: normal normal bold 77px/107px Trajan Pro;
 }
 
 .undertextareadiv{
+  width: 100%;
   padding-top: 8rem;
   display: flex;
   color: white;
@@ -92,7 +96,7 @@ font: normal normal bold 77px/107px Trajan Pro;
 
 @media (min-width: 481px) and (max-width: 767px) {
 .text1{
-  font-size: 57px;
+  font-size: 47px;
 }
 
 .text2{
@@ -101,4 +105,22 @@ font: normal normal bold 77px/107px Trajan Pro;
 .text3{
   font-size: 20px;
 }
+}
+
+@media (max-width: 481px){
+  .undertextareaimg img{
+    width: 100%;
+   
+    object-fit: cover;
+  }
+  .text1{
+    font-size: 32px;
+  }
+  
+  .text2{
+    font-size: 20px;
+  }
+  .text3{
+    font-size: 20px;
+  }
 }

@@ -16,16 +16,22 @@
 
 .forminput {
   height: 65px;
-  width: 519px;
+  min-width: 480px;
+  max-width: 519px;
   border: 3px solid #005186;
   margin-top: 1rem;
+  margin-right: 1rem;
   color: #757474;
   font: normal normal bold 22px/29px Futura LT Pro;
 }
 
+.formpadding{
+  font: normal normal 300 18px/30px Futura LT Pro;
+}
+
 .formtextfield{
   height: 154px;
-  width: 633px;
+  max-width: 633px;
   border: 3px solid #005186;
   background-color: white;
   margin-top: 1rem;
@@ -70,8 +76,10 @@
 
 input[type=checkbox]{
   
-  width: 25px;
-  height: 25px;
+  min-width: 25px;
+  min-height: 25px;
+  max-width: 25px;
+  max-height: 25px;
   outline: 3px solid #006BB1;
   color: #006BB1;
   appearance: none;
@@ -123,7 +131,7 @@ textarea {
   padding-left: 1rem;
 }
 
-@media (max-width: 1280px) {
+@media  (max-width: 1280px) {
   .formpadding{
   margin-right: 6.6rem;
   padding-left: 1rem;
@@ -145,4 +153,32 @@ textarea {
   .formtextfield{
     width: 100%;
   }
+}
+
+@media (max-width: 1000px) {
+
+.formpadding{
+  padding-right: 0rem;
+}
+ 
+}
+
+@media (max-width:585px) {
+.forminput{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  min-width: 200px;
+}
+.formtextfield{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  min-width: 200px;
+}
+.formpadding{
+  font-size: 10px;
+  padding-right: 0px;
+}
+
 }

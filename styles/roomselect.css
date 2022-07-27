@@ -50,6 +50,7 @@
 
 .roomselectdate1{
 width: 446px;
+
 height: 68px;
 background-color: #005186;
 text-align: center;
@@ -163,37 +164,121 @@ padding-top: 3rem;
   font: normal normal bold 34px/46px Futura LT Pro;
   margin-top: 1.8rem;
   line-height: 0.2rem;
+ 
+}
+
+.roomselectdivcenter2{
+  padding-top: 2rem;
+}
+.roomselectimage{
+  height: 650px;
+  
+}
+
+.roomselectdivcenter{
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 1700px ) {
+  .roomselectdivcenter{
+    display: flex;
+    flex-direction: row;
+  }
+  .roomselectdate1{
+ 
+    margin: 0.5rem;
+  } 
+  .roomselectimg{
+    display: none;
+  }
+  .roomselectdiv{
+    height: 100%;
+  }
+  .roomselectscreen{
+    height: 80%;
+  }
 }
 
 @media (min-width: 1009px) and (max-width: 1280px) {
-
+  .roomselectdiv{
+    height: 100%;
+  }
+  .roomselectscreen{
+    height: 80%;
+  }
 .roomselectimg{
   display: none;
 }
 
-
+.roomselectdivcenter2{
+  padding-top: 2rem;
+}
 }
 
 @media (min-width: 689px) and (max-width: 1009px) {
+
   .roomselectimg{
     display: none;
   }
   .roomselectdate1{
     width: 280px;
+    margin: auto;
   }  
+
+  .roomselectdivcenter2{
+    padding-top: 2rem;
+  }
   
 }
 
 @media (max-width: 689px) {
+  .roomselectimage{
+    height: 100%;
+    object-fit: cover;
+  }
+  .roomselectscreen{
+    height: 100%;
+  }
+  .roomselect{
+    height: 100%;
+    padding-bottom: 5rem;
+  }
   .roomselectimg{
     display: none;
   }
-
+  .roomselectdivcenter{
+    display: flex;
+     justify-content: center;
+      padding-top: 2rem;
+       flex-direction: column;
+  }
+  .roomselectdate1{
+    margin-top: 1rem;
+    
+  }
   .roomselecttext1{
     font-size: 40px;
   }
   .roomselecttext3{
     font-size: 18px;
     width: auto;
+  }
+  .roomselectdivcenter2{
+    padding-top: 0rem;
+  }
+  .roomselectbutton{
+    width: 100%;
+  }
+}
+
+@media (max-width:585px) {
+  .roomselect{
+    padding-bottom: 0;
+  }
+
+  .roomselectdate1{
+    margin-top: 1rem;
+    max-width: 300px;
   }
 }

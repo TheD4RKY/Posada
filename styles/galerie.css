@@ -43,6 +43,7 @@
   padding-right: 1rem;
   font: normal normal bold 20px/29px Futura LT Pro;
   cursor: pointer;
+
 }
 
 .galerietext1:hover{
@@ -100,6 +101,20 @@ padding-bottom: 3rem;
 
 
 @media (max-width:684px){
+  .galerienav{
+    flex-direction: column;
+  }
+
+  .galerietext1{
+    text-align: center;
+  }
+
+  .galerieheader{
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 40px;
+  }
+
   .galeriediv{
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);

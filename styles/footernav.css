@@ -41,3 +41,37 @@ font: normal normal bold 20px/29px Futura LT Pro;
   font: normal normal bold 20px/29px Futura LT Pro;
   
 }
+
+@media (min-width:680px) and (max-width: 1075px) {
+
+.footernavrow{
+  flex-direction: column;
+}
+
+.footernav{
+  height: 500px;
+}
+
+.footernavbutton{
+ margin: auto;
+}
+
+.footernavcol{
+  width: 85%;
+}
+}
+
+@media (max-width:680px){
+  .footernavrow{
+    flex-direction: column;
+  }
+  .footernav{
+    height: 600px;
+    }
+    .footernavcol{
+      width: 80%;   
+       }
+       .footernavbutton{
+        margin: auto;
+       }
+}

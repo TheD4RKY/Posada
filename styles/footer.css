@@ -48,3 +48,32 @@ display: flex;
   .facebook{
     padding-right: 1rem;
   }
+
+  @media (min-width:680px) and (max-width: 1075px) {
+
+.footerrow{
+  flex-direction: column;
+}
+
+.footer{
+  height: 600px;
+  }
+
+  .footercol{
+ width: 80%;   
+  }
+
+}
+
+
+@media (max-width:680px){
+  .footerrow{
+    flex-direction: column;
+  }
+  .footer{
+    height: 600px;
+    }
+    .footercol{
+      width: 80%;   
+       }
+}

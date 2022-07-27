@@ -156,11 +156,35 @@ padding-top: 3rem;
   line-height: 0.2rem;
 }
 
-@media (max-width: 1280px) {
+@media (min-width: 1009px) and (max-width: 1280px) {
 
 .roomselectimg{
   display: none;
 }
 
 
+}
+
+@media (min-width: 689px) and (max-width: 1009px) {
+  .roomselectimg{
+    display: none;
+  }
+  .roomselectdate1{
+    width: 280px;
+  }  
+  
+}
+
+@media (max-width: 689px) {
+  .roomselectimg{
+    display: none;
+  }
+
+  .roomselecttext1{
+    font-size: 40px;
+  }
+  .roomselecttext3{
+    font-size: 18px;
+    width: auto;
+  }
 }

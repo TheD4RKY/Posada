@@ -1,6 +1,6 @@
 .galerie{
   width: 100%;
-  height: 900px;
+  height: 100%;
   box-shadow: 1px 3px 15px #00000040;
 }
 
@@ -9,6 +9,16 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 1rem;
+}
+.galeriediv div{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.galerieimg img{
+  width: 100%;
+
 }
 
 .galerieheader{
@@ -32,6 +42,12 @@
   padding-left: 1rem;
   padding-right: 1rem;
   font: normal normal bold 20px/29px Futura LT Pro;
+  cursor: pointer;
+}
+
+.galerietext1:hover{
+
+  text-decoration: underline;
 }
 
 .galeriebutton{
@@ -45,11 +61,18 @@
   color: white;
   margin: auto;
   font: normal normal bold 20px/29px Futura LT Pro;
+  cursor: pointer;
+}
+
+.galeriebutton:hover{
+background-color: white;
+color: #006BB1;
+border: 2px solid #006BB1;
 }
 
 .galeriebuttondiv{
   padding-top: 3rem;
-
+padding-bottom: 3rem;
 }
 
 @media (min-width:684px) and (max-width: 1280px) {

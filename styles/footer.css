@@ -38,6 +38,11 @@ display: flex;
     color: white;
     text-decoration: underline;
     font: normal normal bold 20px/29px Futura LT Pro;
+    cursor: pointer;
+  }
+
+  .footertext2:hover{
+    text-decoration: underline;
   }
 
   .instagram{

@@ -27,6 +27,11 @@ color: #006BB1;
 padding-top: 1rem;
 padding-bottom: 1rem;
 font: normal normal bold 20px/29px Futura LT Pro;
+cursor: pointer;
+}
+
+.footernavtext1:hover{
+  text-decoration: underline;
 }
 
 .footernavbutton{
@@ -39,7 +44,13 @@ font: normal normal bold 20px/29px Futura LT Pro;
   align-items: center;
   justify-content: center;
   font: normal normal bold 20px/29px Futura LT Pro;
-  
+  cursor: pointer;
+}
+
+.footernavbutton:hover{
+  background-color: white;
+  color: #006BB1;
+  border: 2px solid #006BB1;
 }
 
 @media (min-width:680px) and (max-width: 1075px) {

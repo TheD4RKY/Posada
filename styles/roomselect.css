@@ -56,9 +56,12 @@ text-align: center;
 border: 0;
 color: white;
 cursor: pointer;
+
 font-size: 22px;
 font: normal normal bold 22px/30px Futura LT Pro;
 }
+
+
 
 .roomselectdate2{
   width: 446px;

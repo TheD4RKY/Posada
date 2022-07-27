@@ -55,6 +55,7 @@ background-color: #005186;
 text-align: center;
 border: 0;
 color: white;
+cursor: pointer;
 font-size: 22px;
 font: normal normal bold 22px/30px Futura LT Pro;
 }
@@ -120,9 +121,14 @@ font: normal normal bold 22px/30px Futura LT Pro;
   align-items: center;
   justify-content: center;
   margin: auto;
+  cursor: pointer;
   font: normal normal bold 22px/30px Futura LT Pro;
 }
 
+.roomselectbutton:hover{
+  background-color: #005186;
+  color: white;
+}
 .roomselectdate5{
   width: 446px;
   height: 68px;

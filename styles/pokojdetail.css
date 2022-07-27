@@ -1,7 +1,7 @@
 .pokojdiv{
   display: flex;
   flex-direction: column;
-  
+  padding-left: 5rem;
 }
 .pokojdivrow{
   display: flex;
@@ -27,4 +27,39 @@
   padding-top: 2rem;
   font: normal normal bold 20px/29px Futura LT Pro;
   color: #006BB1;
+}
+
+@media (max-width: 1667px) {
+  .pokojdiv{
+    padding-left: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .pokojdetailimg{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+  }
+
+  .pokojdetailimg img{
+    width: 100%;
+    height: auto;
+  }
+  .pokojheader{
+    font-size: 45px;
+  }
+  .pokojtext1{
+    font-size: 20px;
+  }
+  .pokojtext2{
+    font-size: 17px;
+  }
+  .pokojtext3{
+    font-size: 17px;
+  }
+  .pokojdivrow{
+    flex-direction: column;
+  }
 }

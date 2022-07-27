@@ -13,7 +13,12 @@
   position: absolute;
   z-index: -2;
 }
-
+.roomselectdetailflex{
+display: flex; 
+justify-content: center; 
+padding-top: 2rem;
+flex-direction: row;
+}
 .roomselectdiv{
   padding-top: 3.5rem;
   display: flex;
@@ -214,6 +219,10 @@ padding-top: 3rem;
 .roomselectdivcenter2{
   padding-top: 2rem;
 }
+.roomselectdetailflex{
+  flex-direction: column;
+}
+
 }
 
 @media (min-width: 689px) and (max-width: 1009px) {
@@ -229,7 +238,70 @@ padding-top: 3rem;
   .roomselectdivcenter2{
     padding-top: 2rem;
   }
-  
+  .roomselectdetailflex{
+  flex-direction: column;
+}
+ .roomselectimage{
+    height: 100%;
+    object-fit: cover;
+  }
+  .roomselectscreen{
+    height: 100%;
+  }
+  .roomselect{
+    background-color: #006BB1;
+    height: 100%;
+    padding-bottom: 5rem;
+  }
+  .roomselectimg{
+    display: none;
+  }
+  .roomselectdivcenter{
+    display: flex;
+     justify-content: center;
+      padding-top: 2rem;
+       flex-direction: column;
+  }
+  .roomselectdate1{
+    width: 600px;
+  margin: auto;
+  }
+  .roomselecttext1{
+    font-size: 40px;
+  }
+  .roomselecttext3{
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+  }
+  .roomselectdivcenter2{
+    padding-top: 0rem;
+  }
+.roomselectbutton{
+  width: 600px;
+  margin: auto;
+}
+  .roomselectdetailflex{
+  flex-direction: column;
+}
+.roomselectdate5{
+  width: 600px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.roomselectdate4{
+  width: 600px;
+   
+}
+  .roomselectdate3{
+  max-width: 600px;
+  width: auto;
+  }
+  .roomselecttext{
+  font-size: 30px;
+  margin-top: rem;
+  margin: auto;
+}
 }
 
 @media (max-width: 689px) {
@@ -255,8 +327,8 @@ padding-top: 3rem;
        flex-direction: column;
   }
   .roomselectdate1{
-    margin-top: 1rem;
-    
+    width: 300px;
+  margin: auto;
   }
   .roomselecttext1{
     font-size: 40px;
@@ -268,9 +340,31 @@ padding-top: 3rem;
   .roomselectdivcenter2{
     padding-top: 0rem;
   }
-  .roomselectbutton{
-    width: 100%;
+.roomselectbutton{
+  width: 300px;
+  margin: auto;
+}
+  .roomselectdetailflex{
+  flex-direction: column;
+}
+.roomselectdate5{
+  width: 300px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.roomselectdate4{
+  width: 300px;
+   
+}
+  .roomselectdate3{
+  max-width: 300px;
+  width: auto;
   }
+  .roomselecttext{
+  font-size: 30px;
+  margin-top: 1rem;
+  margin: auto;
+}
 }
 
 @media (max-width:585px) {
@@ -279,7 +373,33 @@ padding-top: 3rem;
   }
 
   .roomselectdate1{
-    margin-top: 1rem;
-    max-width: 300px;
+    width: 300px;
+  margin: auto;
   }
+.roomselecttext{
+  font-size: 30px;
+  margin-top: 1rem;
+  margin: auto;
+}
+  .roomselectdate3{
+  max-width: 300px;
+  width: auto;
+  }
+.roomselectdate4{
+  width: 300px;
+   
+}
+.roomselectbutton{
+  width: 300px;
+  margin: auto;
+}
+.roomselectdate5{
+  width: 300px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.roomselectdetailflex{
+  flex-direction: column;
+}
+
 }

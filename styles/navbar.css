@@ -35,7 +35,39 @@
   color: white;
 }
 
-@media (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .navright{
+    display: none;
+  }
+
+  .middletextarea{
+    width: 70%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .middletextarea{
+    width: 70%;
+  }
+  .navright{
+    display: none;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .middletextarea{
+    width: 70%;
+  }
+  .navright{
+    display: none;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .middletextarea{
+    width: 70%;
+  }
   .navright{
     display: none;
   }

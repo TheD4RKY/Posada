@@ -82,4 +82,17 @@ font: normal normal bold 77px/107px Trajan Pro;
 
 .arrowpos{
   padding-top: 3.1rem;
+} 
+
+@media (min-width: 481px) and (max-width: 767px) {
+.text1{
+  font-size: 57px;
+}
+
+.text2{
+  font-size: 27px;
+}
+.text3{
+  font-size: 20px;
+}
 }

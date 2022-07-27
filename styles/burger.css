@@ -67,6 +67,8 @@
 
   .container2{
     display: block;
+    margin-top: 1rem;
+  margin-right: 3rem;
   }
 
 
@@ -86,6 +88,8 @@
   .container2 {
     display: inline-block;
     cursor: pointer;
+    margin-top: 1rem;
+  margin-right: 3rem;
   }
   
   .bar1, .bar2, .bar3 {
@@ -126,6 +130,8 @@
 .container2 {
   display: inline-block;
   cursor: pointer;
+  margin-top: 1rem;
+  margin-right: 3rem;
 }
 
 .bar1, .bar2, .bar3 {
